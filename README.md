@@ -10,19 +10,19 @@ Born from a real failure: an AI agent shipped a "correct but backdated" dashboar
 ├── SKILL.md                  ← the skill: workflow + hard rules (C/S/T/I codes)
 ├── gallery/
 │   ├── web/
-│   │   ├── dashboard/        ← 27 dashboard references + ANATOMY.md
-│   │   ├── landing/          ← landing pages + ANATOMY.md
-│   │   └── settings/         ← settings screens + ANATOMY.md
+│   │   ├── dashboard/        ← 27 dashboard references + README.md
+│   │   ├── landing/          ← landing pages + README.md
+│   │   └── settings/         ← settings screens + README.md
 │   └── mobile/
-│       ├── finance/          ← wallets, exchanges, payouts + ANATOMY.md
-│       ├── fitness/          ← dark glass trackers + ANATOMY.md
-│       ├── social/           ← leaderboards, group sheets + ANATOMY.md
-│       ├── productivity/     ← task managers + ANATOMY.md
-│       ├── education/        ← e-learning + ANATOMY.md
-│       ├── ecommerce/        ← shop apps + ANATOMY.md
-│       ├── settings/         ← monochrome settings + ANATOMY.md
-│       ├── onboarding/       ← illustrated flows + ANATOMY.md
-│       └── utility/          ← widget packs + ANATOMY.md
+│       ├── finance/          ← wallets, exchanges, payouts + README.md
+│       ├── fitness/          ← dark glass trackers + README.md
+│       ├── social/           ← leaderboards, group sheets + README.md
+│       ├── productivity/     ← task managers + README.md
+│       ├── education/        ← e-learning + README.md
+│       ├── ecommerce/        ← shop apps + README.md
+│       ├── settings/         ← monochrome settings + README.md
+│       ├── onboarding/       ← illustrated flows + README.md
+│       └── utility/          ← widget packs + README.md
 ├── color-combinations/       ← measured hex pairings with usage notes
 └── RESEARCH.md               ← cross-cutting analysis of all 48 references
 ```
@@ -38,7 +38,7 @@ Every image in the gallery was selected because it passes the "premium feel" bar
 
 1. Read `SKILL.md`
 2. Classify your job (what + where + who judges)
-3. Open the closest `gallery/` folder, read its `ANATOMY.md`
+3. Open the closest `gallery/` folder, read its `README.md`
 4. Write a 3-line design contract naming your reference
 5. Build → screenshot at 1280px + 390px → critique like a designer
 6. Ship only when your screenshot wouldn't look out of place in the gallery

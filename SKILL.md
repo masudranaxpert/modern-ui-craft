@@ -34,8 +34,8 @@ Answer before designing:
 - **Who** judges it? end users (delight matters) vs internal ops (clarity)
 
 ### 1. Pick your anatomy from the gallery
-`gallery/` is organized by platform + app type. Each folder has an
-`ANATOMY.md` describing every reference image's layout skeleton and the
+`gallery/` is organized by platform + app type. Each folder has a
+`README.md` describing every reference image's layout skeleton and the
 patterns that make it feel premium. Read the one closest to your job.
 Non-negotiable starting points per type (full details in the folder):
 
@@ -128,7 +128,7 @@ design verification. After building:
 ## Folder guide
 - `gallery/web/` + `gallery/mobile/` — 48 curated reference screenshots,
   semantic filenames, grouped by app type
-- `gallery/*/ANATOMY.md` — per-folder breakdown of every image
+- `gallery/*/README.md` — per-folder breakdown of every image
 - `color-combinations/` — measured hex pairings from the references with
   usage notes
 - `RESEARCH.md` — cross-cutting analysis: what all modern UIs share,
