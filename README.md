@@ -8,6 +8,7 @@ Born from a real failure: an AI agent shipped a "correct but backdated" dashboar
 
 ```
 ├── SKILL.md                  ← the skill: workflow + hard rules (C/S/T/I codes)
+├── Galary/                   ← inbox: drop new raw screenshots here for AI to organize
 ├── gallery/
 │   ├── web/
 │   │   ├── dashboard/        ← 27 dashboard references + README.md

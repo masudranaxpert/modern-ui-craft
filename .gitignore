@@ -1,6 +1,5 @@
 # scratch files
 _grids/
-make_grids.py
-organize.py
 *.pyc
 __pycache__/
+.DS_Store

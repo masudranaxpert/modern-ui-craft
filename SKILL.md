@@ -41,11 +41,11 @@ Non-negotiable starting points per type (full details in the folder):
 
 | You're building | Start from | Core anatomy |
 |---|---|---|
-| Web dashboard | `web/dashboard/` | light-gray shell → floating white cards, dark icon sidebar OR none, KPI stat trio, one hero chart |
-| Landing page | `web/landing/` | pastel gradient hero, huge display headline, floating product cards, black pill CTA, logo strip |
-| Mobile finance | `mobile/finance/` | gradient balance hero → white body, icon quick-action grid, tx list, black pill CTA |
-| Mobile fitness/social | `mobile/fitness/`, `mobile/social/` | dark glass or pastel aurora, big metric hero, bottom tab bar |
-| Settings | `web/settings/`, `mobile/settings/` | monochrome, grouped rows, toggles carry all interaction, ZERO accent color |
+| Web dashboard | `gallery/web/dashboard/` | light-gray shell → floating white cards, dark icon sidebar OR none, KPI stat trio, one hero chart |
+| Landing page | `gallery/web/landing/` | pastel gradient hero, huge display headline, floating product cards, black pill CTA, logo strip |
+| Mobile finance | `gallery/mobile/finance/` | gradient balance hero → white body, icon quick-action grid, tx list, black pill CTA |
+| Mobile fitness/social | `gallery/mobile/fitness/`, `gallery/mobile/social/` | dark glass or pastel aurora, big metric hero, bottom tab bar |
+| Settings | `gallery/web/settings/`, `gallery/mobile/settings/` | monochrome, grouped rows, toggles carry all interaction, ZERO accent color |
 
 ### 2. Write a 3-line design contract (in your reply, not a file)
 ```
