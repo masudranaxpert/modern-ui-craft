@@ -5,7 +5,7 @@ description: Use when building any modern web or mobile UI — copy proven 2026
   design anatomy (soft-shell cards, pill nav, pastel heroes) from a curated
   reference gallery instead of inventing a look. Turns "make it modern and
   beautiful" into a deterministic checklist with measured color systems,
-  per-app-type patterns, and hard anti-slop rules distilled from 48 real
+  per-app-type patterns, and hard anti-slop rules distilled from 105 real
   product screenshots.
 metadata:
   tags: [ui, ux, design, dashboard, mobile, color, 2026]
@@ -126,9 +126,10 @@ design verification. After building:
 4. Iterate until the screenshot would not look out of place in `gallery/`.
 
 ## Folder guide
-- `gallery/web/` + `gallery/mobile/` — 48 curated reference screenshots,
-  semantic filenames, grouped by app type
-- `gallery/*/README.md` — per-folder breakdown of every image
+- `gallery/web/` + `gallery/mobile/` — 105 curated reference screenshots,
+  semantic filenames, grouped by app type (plus `components/` for
+  component-level refs and `techniques/` for concrete how-to cards)
+- `gallery/**/README.md` — per-folder breakdown of every image
 - `color-combinations/` — measured hex pairings from the references with
   usage notes
 - `RESEARCH.md` — cross-cutting analysis: what all modern UIs share,

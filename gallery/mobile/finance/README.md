@@ -2,7 +2,7 @@
 
 Mobile fintech: wallets, crypto exchange/analytics, payouts, paywall screens.
 
-**Screens:** 9  
+**Screens:** 13  
 
 | # | File | Pattern | Palette | Layout |
 |---|------|---------|---------|--------|
@@ -15,8 +15,7 @@ Mobile fintech: wallets, crypto exchange/analytics, payouts, paywall screens.
 | 20 | `eth-exchange-3scr.jpg` | Crypto exchange (ETH) | white + green/red candles + black pill CTA | sparkline rows + candlestick chart + Buy/Sell segmented pills |
 | 28 | `crypto-wallet-blue-4scr.jpg` | Crypto wallet 4-screen set | white + blue accent + colorful donut | tx list + donut portfolio + notifications feed |
 | 29 | `crypto-analytics-bars-3scr.jpg` | Crypto analytics 3-screen | light #F6F7F9 + multi-color bar charts | score bars + AI recommendations card + coin search list |
-
-## Notes
-
-- Color families: teal (Breet), green gradient (crypto variants), blue (payout set), mint (Jerry), dark (Waley Pro paywall).
-- Confirmation patterns: `payout-success-confirm` (receipt list) pairs with `send-payout-keypad` (input flow).
+| 19 | `human-car-prepurchase-3scr.jpg` | Car pre-purchase check (HUMAN) | white + blue accents + black car hero | 3scr: listing search -> Porsche 911 detail hero -> cost breakdown donut + leasing CTA |
+| 42 | `stanley-wallet-dark.jpg` | Dark wallet home (Stanley) | near-black + white text + green/red deltas | black balance hero $85k + quick-send avatars + income/expense cards |
+| 43 | `stanley-wallet-dark-alt.jpg` — near-duplicate of stanley-wallet-dark | Dark wallet home, tighter crop | near-black + white + green/red deltas | same screen, single-phone crop |
+| 53 | `arman-dark-fintech-3scr.jpg` | Dark fintech set (Arman) | near-black + violet-blue accents + green deltas | 3scr: balance+quick actions -> analytics bars+donut -> VISA card+tx list |

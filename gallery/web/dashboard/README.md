@@ -2,7 +2,7 @@
 
 Desktop web dashboard patterns: SaaS analytics, CRM, PM tools, agent ops, finance and logistics consoles. Mostly light UIs with dark-mode outliers (Vantage, Trackly, Linear-like PM).
 
-**Screens:** 27  
+**Screens:** 41  
 
 | # | File | Pattern | Palette | Layout |
 |---|------|---------|---------|--------|
@@ -33,9 +33,17 @@ Desktop web dashboard patterns: SaaS analytics, CRM, PM tools, agent ops, financ
 | 45 | `invoicing-finance-overview.jpg` | Finance overview (invoicing) | white + red area chart + green bars + multi-color donuts + red Create CTA | KPI chart w/ tooltip + aging table + donut pair |
 | 47 | `haulsight-freight-analytics.jpg` | Freight analytics (Haulsight) | light + yellow/blue dot-matrix + dark-green stat card | exception trends matrix + ranked bars + green summary card |
 | 48 | `orchestrateiq-agent-ops.jpg` | Agent ops dashboard (OrchestrateIQ) | light #F6F7F9 + purple gauge + owned multi-hue + notifications popover | health gauge + network graph + notification list |
-
-## Notes
-
-- Dark-mode set: `vantage-*` (mint-on-black agent ops), `trackly-dark-analytics`, `pm-linear-kanban-panels`.
-- Sidebar treatments recur: dark-green (Careflow, Databrain, SakanBeasa), orange-accent (Acme, HubSpot-like), neutral icon rail.
-- `crm-table-filters-modal` and `support-analytics-yellow` are web+mobile responsive pairs.
+| 18 | `agent-workflow-builder-modal.jpg` | No-code agent workflow builder | light gray canvas + white nodes + dark left rail | node-graph canvas + step config modal + left rail w/ flows |
+| 23 | `fundora-transaction-detail.jpg` | Transaction detail page (Fundora) | light + blue links + green paid banner | $35k paid banner + applied-timeline + details/verification sidebar |
+| 25 | `progflow-goals-qa.jpg` | Goals + QA dashboard (ProgFlow) | light + green progress + gray body | 94% goal progress + member goal rows + milestone bars + filter chips |
+| 28 | `ats-candidate-kanban.jpg` | ATS candidate kanban | light + blue links + purple upgrade btn | job header w/ meta chips + candidate columns + filter bar |
+| 29 | `options-trading-analytics.jpg` | Options trading analytics (Prometheus) | light + blue/purple heatmaps + multicolor charts | option chain table + premium charts + call/put heatmap matrices |
+| 30 | `orbit-marketing-overview.jpg` | Marketing overview (Orbit) | light + orange CTA + pastel charts | greeting + 4 KPI cards + area chart + traffic donut + campaigns table |
+| 38 | `erp-notifications-panel.jpg` | ERP dashboard + notifications drawer | light + green accents (mockup on photo bg) | KPI trio + workflow tables + notification feed drawer |
+| 39 | `nexaflow-integrations.jpg` | Integrations hub (NexaFlow) | light + violet accents + white cards | app grid (Slack/Drive/Notion/Zoom...) + connect panel + actions |
+| 40 | `greenflow-project-tracker.jpg` | Project tracker (GreenFlow) | sage shell + green accents + white cards | phase stepper w/ rings + task list w/ progress + 62% overview rail |
+| 48 | `margin-analysis-waterfall.jpg` | Margin analysis (margin) | light + blue bars + pink/violet waterfall | 34% KPI + target/waterfall decomposition + 12-week bars + insight rail |
+| 54 | `agent-ops-dark-amber.jpg` | Agent ops dark (traces) | near-black + amber/violet charts + red alerts | SLA 91.4% KPIs + agent compliance table + latency/quality charts |
+| 55 | `paysmooth-earnings.jpg` | Earnings dashboard (PaySmooth) | light + black stat cards + dark sidebar | dark KPI trio + bar chart w/ tooltips + transactions + card panel |
+| 56 | `cerum-glucose-clinical.jpg` | Clinical glucose monitor (Cerum) | light + teal/blue charts + soft donut | glucose KPIs + trend line + range donut + events + time-in-range |
+| 60 | `sellhive-seller-ops.jpg` | Seller ops dashboard (SellHive) | light + green bars + white cards + amber alerts | sales chart + KPI rail + order table w/ status pills + notification centre |

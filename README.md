@@ -2,7 +2,7 @@
 
 **A curated reference gallery + design skill for building 2026-grade interfaces — dashboards, landing pages, and mobile apps that look premium on the first try.**
 
-Born from a real failure: an AI agent shipped a "correct but backdated" dashboard despite following all the abstract rules. This repo is the fix — **48 hand-curated reference screenshots** from real products, deconstructed into reusable anatomy patterns, measured color systems, and a deterministic skill any AI agent (or human) can follow.
+Born from a real failure: an AI agent shipped a "correct but backdated" dashboard despite following all the abstract rules. This repo is the fix — **105 hand-curated reference screenshots** (48 curated 2026-09-28 + 57 organized from the 2026-09-30 inbox drop) from real products, deconstructed into reusable anatomy patterns, measured color systems, and a deterministic skill any AI agent (or human) can follow.
 
 ## What's inside
 
@@ -11,21 +11,25 @@ Born from a real failure: an AI agent shipped a "correct but backdated" dashboar
 ├── Galary/                   ← inbox: drop new raw screenshots here for AI to organize
 ├── gallery/
 │   ├── web/
-│   │   ├── dashboard/        ← 27 dashboard references + README.md
+│   │   ├── dashboard/        ← 41 dashboard references + README.md
 │   │   ├── landing/          ← landing pages + README.md
 │   │   └── settings/         ← settings screens + README.md
-│   └── mobile/
-│       ├── finance/          ← wallets, exchanges, payouts + README.md
-│       ├── fitness/          ← dark glass trackers + README.md
-│       ├── social/           ← leaderboards, group sheets + README.md
-│       ├── productivity/     ← task managers + README.md
-│       ├── education/        ← e-learning + README.md
-│       ├── ecommerce/        ← shop apps + README.md
-│       ├── settings/         ← monochrome settings + README.md
-│       ├── onboarding/       ← illustrated flows + README.md
-│       └── utility/          ← widget packs + README.md
+│   ├── mobile/
+│   │   ├── finance/          ← wallets, exchanges, payouts + README.md
+│   │   ├── fitness/          ← dark glass + gamified trackers + README.md
+│   │   ├── health/           ← telehealth, wellness, medication + README.md
+│   │   ├── social/           ← leaderboards, group sheets + README.md
+│   │   ├── productivity/     ← task managers, calendars, AI assistants + README.md
+│   │   ├── education/        ← e-learning + README.md
+│   │   ├── ecommerce/        ← shop apps + README.md
+│   │   ├── settings/         ← monochrome settings + README.md
+│   │   ├── onboarding/       ← illustrated flows + README.md
+│   │   └── utility/          ← prayer times, widgets + README.md
+│   ├── components/           ← component-level refs: cards, pills, gauges, feeds
+│   └── techniques/           ← concrete how-to rules (radius, specs, wireframes)
+├── _rejected_inbox/          ← non-references (collages/memes/photos), kept out of gallery
 ├── color-combinations/       ← measured hex pairings with usage notes
-└── RESEARCH.md               ← cross-cutting analysis of all 48 references
+└── RESEARCH.md               ← cross-cutting analysis of the curated references
 ```
 
 ## The core idea

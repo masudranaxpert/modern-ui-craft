@@ -1,7 +1,10 @@
 # Cross-cutting research — what 48 modern UIs share
 
-Analysis across all 48 gallery references (27 web dashboards, 3 landing/
-marketing, 18 mobile app screens) collected 2026-09. Every claim below is
+Analysis across the initial 48 gallery references (27 web dashboards, 3
+landing/marketing, 18 mobile app screens) collected 2026-09-28. Gallery
+expanded to 105 references on 2026-09-30 (14 new dashboards, 11 mobile
+health, plus components/techniques folders) — every claim below held on
+spot-check of the new set; full re-analysis pending. Every claim below is
 backed by the majority of references, not vibes.
 
 ## 1. The shell → cards anatomy dominates (43/48)
