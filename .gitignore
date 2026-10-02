@@ -3,3 +3,14 @@ _grids/
 *.pyc
 __pycache__/
 .DS_Store
+
+# one-off chore scripts (session-specific, not part of the skill)
+organize*.py
+repair_readmes.py
+make_*_grids.py
+
+# rejected staging — local provenance only, never publish
+_rejected_inbox/
+
+# raw measurement dumps (distilled numbers live in the *.md files)
+measurements/

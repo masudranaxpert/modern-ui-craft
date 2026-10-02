@@ -29,9 +29,11 @@ Born from a real failure: an AI agent shipped a "correct but backdated" dashboar
 │   │   └── utility/          ← prayer times, widgets + README.md
 │   ├── components/           ← component-level refs: cards, pills, gauges, feeds
 │   └── techniques/           ← concrete how-to rules (radius, specs, wireframes)
-├── _rejected_inbox/          ← non-references (collages/memes/photos), kept out of gallery
 ├── color-combinations/       ← measured hex pairings with usage notes
 └── RESEARCH.md               ← cross-cutting analysis of the curated references
+
+Local-only (gitignored): `inbox/` staging drops, `_grids/` contact sheets,
+`_rejected_inbox/` provenance, one-off organize scripts.
 ```
 
 ## The core idea
