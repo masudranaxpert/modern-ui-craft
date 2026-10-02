@@ -1,12 +1,13 @@
 ---
 name: modern-ui-craft
-version: 1.1.0
+version: 1.2.0
 description: Use when building any modern web or mobile UI — copy proven 2026
   design anatomy (soft-shell cards, pill nav, pastel heroes) from a curated
-  reference gallery instead of inventing a look. Turns "make it modern and
-  beautiful" into a deterministic checklist with measured color systems,
-  per-app-type patterns, and hard anti-slop rules distilled from 105 real
-  product screenshots.
+  reference gallery instead of inventing a look, and apply Emil Kowalski's
+  motion discipline (MOTION.md) to every animation. Turns "make it modern
+  and beautiful" into a deterministic checklist with measured color systems,
+  per-app-type patterns, motion rules, and hard anti-slop rules distilled
+  from 105 real product screenshots.
 metadata:
   tags: [ui, ux, design, dashboard, mobile, color, 2026]
 ---
@@ -97,21 +98,16 @@ If you cannot name a reference, you have not looked hard enough.
 
 **Interaction**
 - I1 — Touch targets ≥44px (mobile), ≥40px desktop buttons; 8px spacing.
-- I2 — Motion (full discipline: Hermes `uiux-engineer` skill →
-  `references/motion-animation.md`): run the Gate first — frequency
-  (keyboard/100+-per-day = NO animation; occasional = standard; rare =
-  delight budget) → purpose (feedback / spatial consistency / state
-  indication / jarring-change bridge; "looks cool" is not a purpose).
-  150-300ms, canonical curves `--ease-out: cubic-bezier(0.23,1,0.32,1)`,
-  `--ease-in-out: cubic-bezier(0.77,0,0.175,1)`; never `ease-in` on UI.
-  Press feedback scale(0.97), transition transform 160ms. Entrances from
-  scale(0.95)+opacity(0), never scale(0). Only transform/opacity/clip-path
-  animate. `prefers-reduced-motion` = gentler variant (opacity/color stay,
-  movement drops) ships WITH every animation. Hover styles guarded by
-  `@media(hover:hover) and (pointer:fine)`.
+- I2 — Motion: full discipline lives in `MOTION.md` (same folder) — read it
+  before any animation code. Summary: run the Gate (frequency → purpose),
+  150-300ms, canonical curves `--ease-out: cubic-bezier(0.23,1,0.32,1)` /
+  `--ease-in-out: cubic-bezier(0.77,0,0.175,1)`, never `ease-in` on UI,
+  press feedback scale(0.97) @160ms, entrances from scale(0.95)+opacity(0),
+  only transform/opacity/clip-path animate, `prefers-reduced-motion` +
+  `@media(hover:hover) and (pointer:fine)` ship WITH every animation.
 - I3 — Toasts: ONE at a time, non-blocking, replace alert(); actionable
-  toasts never auto-dismiss. Toast personality exception: ~400ms `ease`
-  (not ease-out) reads elegant on occasional surfaces (Sonner).
+  toasts never auto-dismiss. Personality exception: ~400ms `ease` (not
+  ease-out) reads elegant on occasional surfaces (Sonner).
 - I4 — Loading: skeleton screens for layout stability (CLS), spinners only
   for sub-second waits.
 - I5 — Every entity shows its state inline (pill+word, meter, delta) without
@@ -141,6 +137,8 @@ design verification. After building:
   semantic filenames, grouped by app type (plus `components/` for
   component-level refs and `techniques/` for concrete how-to cards)
 - `gallery/**/README.md` — per-folder breakdown of every image
+- `MOTION.md` — animation & micro-interaction discipline (the Gate, curves,
+  durations, never-ship list, recipes) — self-contained, no external skill needed
 - `color-combinations/` — measured hex pairings from the references with
   usage notes
 - `RESEARCH.md` — cross-cutting analysis: what all modern UIs share,

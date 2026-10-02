@@ -8,7 +8,9 @@ Born from a real failure: an AI agent shipped a "correct but backdated" dashboar
 
 ```
 ├── SKILL.md                  ← the skill: workflow + hard rules (C/S/T/I codes)
-├── inbox/                   ← inbox: drop new raw screenshots here for AI to organize
+├── MOTION.md                 ← animation discipline (Emil Kowalski): the Gate,
+│                                curves, durations, never-ship list, recipes
+├── inbox/                    ← staging: drop new raw screenshots here for AI to organize
 ├── gallery/
 │   ├── web/
 │   │   ├── dashboard/        ← 41 dashboard references + README.md
@@ -41,12 +43,14 @@ Every image in the gallery was selected because it passes the "premium feel" bar
 
 ## Quick start (for AI agents)
 
-1. Read `SKILL.md`
+1. Read `SKILL.md` (anatomy) — and `MOTION.md` (motion) if the build has
+   any animation, transition, hover, or micro-interaction (real UIs always do)
 2. Classify your job (what + where + who judges)
 3. Open the closest `gallery/` folder, read its `README.md`
 4. Write a 3-line design contract naming your reference
 5. Build → screenshot at 1280px + 390px → critique like a designer
-6. Ship only when your screenshot wouldn't look out of place in the gallery
+6. Run the `MOTION.md` Never-Ship list on every animation you wrote
+7. Ship only when your screenshot wouldn't look out of place in the gallery
 
 ## Highlights from the rules
 
