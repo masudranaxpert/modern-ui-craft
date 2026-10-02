@@ -83,9 +83,9 @@ custom curves (`cubic-bezier(0.23,1,0.32,1)` ease-out), hover-guards for
 touch, reduced-motion variants ship with the animation. Nothing bounces
 except momentum gestures. The premium feel comes from restraint — no
 entrance animation circus. Frequency gate: screens used 100+ times/day get
-NO animation at all (keyboard, palette toggles). Full discipline now lives
-in the Hermes `uiux-engineer` skill (`references/motion-animation.md`,
-Emil Kowalski corpus + Apple fluid interfaces, adopted 2026-10-02).
+NO animation at all (keyboard, palette toggles). Full discipline lives in
+`MOTION.md` (Emil Kowalski corpus + Apple fluid interfaces, adopted
+2026-10-02).
 
 ## Trend signals (late 2026)
 
