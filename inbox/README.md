@@ -1,4 +1,4 @@
-# Galary (Inbox / Staging) 📥
+# inbox — staging area 📥
 
 Drop your raw screenshots or design references here.
 

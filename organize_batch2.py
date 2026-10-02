@@ -2,7 +2,7 @@
 import os, json, shutil, re
 
 BASE = os.path.dirname(os.path.abspath(__file__))
-SRC = os.path.join(BASE, "Galary")
+SRC = os.path.join(BASE, "inbox")
 GAL = os.path.join(BASE, "gallery")
 
 # n: (folder, slug, pattern, palette, layout, note)

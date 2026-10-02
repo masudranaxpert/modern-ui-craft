@@ -1,6 +1,6 @@
 ---
 name: modern-ui-craft
-version: 1.0.0
+version: 1.1.0
 description: Use when building any modern web or mobile UI — copy proven 2026
   design anatomy (soft-shell cards, pill nav, pastel heroes) from a curated
   reference gallery instead of inventing a look. Turns "make it modern and
@@ -97,10 +97,21 @@ If you cannot name a reference, you have not looked hard enough.
 
 **Interaction**
 - I1 — Touch targets ≥44px (mobile), ≥40px desktop buttons; 8px spacing.
-- I2 — Motion: 150-300ms ease-out-quart `cubic-bezier(0.16,1,0.3,1)`;
-  press feedback scale(0.97). Hover styles guarded by `@media(hover:hover)`.
+- I2 — Motion (full discipline: Hermes `uiux-engineer` skill →
+  `references/motion-animation.md`): run the Gate first — frequency
+  (keyboard/100+-per-day = NO animation; occasional = standard; rare =
+  delight budget) → purpose (feedback / spatial consistency / state
+  indication / jarring-change bridge; "looks cool" is not a purpose).
+  150-300ms, canonical curves `--ease-out: cubic-bezier(0.23,1,0.32,1)`,
+  `--ease-in-out: cubic-bezier(0.77,0,0.175,1)`; never `ease-in` on UI.
+  Press feedback scale(0.97), transition transform 160ms. Entrances from
+  scale(0.95)+opacity(0), never scale(0). Only transform/opacity/clip-path
+  animate. `prefers-reduced-motion` = gentler variant (opacity/color stay,
+  movement drops) ships WITH every animation. Hover styles guarded by
+  `@media(hover:hover) and (pointer:fine)`.
 - I3 — Toasts: ONE at a time, non-blocking, replace alert(); actionable
-  toasts never auto-dismiss.
+  toasts never auto-dismiss. Toast personality exception: ~400ms `ease`
+  (not ease-out) reads elegant on occasional surfaces (Sonner).
 - I4 — Loading: skeleton screens for layout stability (CLS), spinners only
   for sub-second waits.
 - I5 — Every entity shows its state inline (pill+word, meter, delta) without

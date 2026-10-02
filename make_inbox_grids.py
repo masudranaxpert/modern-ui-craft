@@ -1,9 +1,9 @@
-"""Build contact-sheet grids from Galary/ inbox images for AI classification."""
+"""Build contact-sheet grids from inbox/ inbox images for AI classification."""
 import os
 from PIL import Image, ImageDraw
 
 BASE = os.path.dirname(os.path.abspath(__file__))
-SRC = os.path.join(BASE, "Galary")
+SRC = os.path.join(BASE, "inbox")
 OUT = os.path.join(BASE, "_grids")
 os.makedirs(OUT, exist_ok=True)
 

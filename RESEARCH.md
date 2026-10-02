@@ -78,9 +78,14 @@ line-height.
 
 ## 10. Motion discipline
 
-Press feedback scale(0.92-0.97), transitions 150-300ms ease-out,
-hover-guards for touch. Nothing bounces. The premium feel comes from
-restraint — no entrance animation circus.
+Press feedback scale(0.95-0.97) @160ms, transitions 150-300ms with strong
+custom curves (`cubic-bezier(0.23,1,0.32,1)` ease-out), hover-guards for
+touch, reduced-motion variants ship with the animation. Nothing bounces
+except momentum gestures. The premium feel comes from restraint — no
+entrance animation circus. Frequency gate: screens used 100+ times/day get
+NO animation at all (keyboard, palette toggles). Full discipline now lives
+in the Hermes `uiux-engineer` skill (`references/motion-animation.md`,
+Emil Kowalski corpus + Apple fluid interfaces, adopted 2026-10-02).
 
 ## Trend signals (late 2026)
 

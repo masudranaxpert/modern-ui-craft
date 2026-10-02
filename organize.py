@@ -1,9 +1,9 @@
-"""Organize raw images from Galary/ into categorized gallery/ folders."""
+"""Organize raw images from inbox/ into categorized gallery/ folders."""
 import os
 import shutil
 
 BASE = os.path.dirname(os.path.abspath(__file__))
-SRC = os.path.join(BASE, "Galary")
+SRC = os.path.join(BASE, "inbox")
 GALLERY = os.path.join(BASE, "gallery")
 
 # Historical mapping of initial 48 images
@@ -59,7 +59,7 @@ M = {
 }
 
 def check_inbox():
-    """List pending images in Galary/ inbox waiting to be categorized."""
+    """List pending images in inbox/ inbox waiting to be categorized."""
     if not os.path.exists(SRC):
         os.makedirs(SRC, exist_ok=True)
         return []
@@ -73,8 +73,8 @@ def check_inbox():
 if __name__ == "__main__":
     pending = check_inbox()
     if not pending:
-        print("Inbox (Galary/) is empty. Drop raw screenshots here to organize them.")
+        print("Inbox (inbox/) is empty. Drop raw screenshots here to organize them.")
     else:
-        print(f"Found {len(pending)} pending image(s) in Galary/:")
+        print(f"Found {len(pending)} pending image(s) in inbox/:")
         for f in pending:
             print(f" - {f}")
